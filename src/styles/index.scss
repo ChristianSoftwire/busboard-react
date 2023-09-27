@@ -1,0 +1,30 @@
+$backgroundHeader: #f0ffff;
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.website-title {
+  font-size: 3rem;
+}
+
+.website-title-container {
+  background-color: $backgroundHeader;
+  border: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
